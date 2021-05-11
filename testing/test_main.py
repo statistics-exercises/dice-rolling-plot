@@ -16,7 +16,7 @@ x = np.linspace(1,100,100)
 var = randomvar( 3.5, variance=35/12, vmin=1, vmax=6, isinteger=True ) 
 line1=line( x, var )
 
-axislabels=["Index", "random variable"]
+axislabels=["Index", "dice roll"]
 
 class UnitTests(unittest.TestCase) :
     def test_variables(self) :
